@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioProcessorGraphTutorial - Standalone Plugin", "AudioProcessorGraphTutorial_StandalonePlugin.vcxproj", "{C1DB1DAC-4E62-F210-9BFD-2483E0EB1AE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16} = {139374C8-DBA1-330D-D6F1-F0446CC87E16}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioProcessorGraphTutorial - VST3", "AudioProcessorGraphTutorial_VST3.vcxproj", "{81624C17-F433-F0BF-64E9-B2F6D6FEAEB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16} = {139374C8-DBA1-330D-D6F1-F0446CC87E16}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioProcessorGraphTutorial - Shared Code", "AudioProcessorGraphTutorial_SharedCode.vcxproj", "{139374C8-DBA1-330D-D6F1-F0446CC87E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81624C17-F433-F0BF-64E9-B2F6D6FEAEB4}.Debug|x64.ActiveCfg = Debug|x64
+		{81624C17-F433-F0BF-64E9-B2F6D6FEAEB4}.Debug|x64.Build.0 = Debug|x64
+		{81624C17-F433-F0BF-64E9-B2F6D6FEAEB4}.Release|x64.ActiveCfg = Release|x64
+		{81624C17-F433-F0BF-64E9-B2F6D6FEAEB4}.Release|x64.Build.0 = Release|x64
+		{C1DB1DAC-4E62-F210-9BFD-2483E0EB1AE0}.Debug|x64.ActiveCfg = Debug|x64
+		{C1DB1DAC-4E62-F210-9BFD-2483E0EB1AE0}.Debug|x64.Build.0 = Debug|x64
+		{C1DB1DAC-4E62-F210-9BFD-2483E0EB1AE0}.Release|x64.ActiveCfg = Release|x64
+		{C1DB1DAC-4E62-F210-9BFD-2483E0EB1AE0}.Release|x64.Build.0 = Release|x64
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16}.Debug|x64.ActiveCfg = Debug|x64
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16}.Debug|x64.Build.0 = Debug|x64
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16}.Release|x64.ActiveCfg = Release|x64
+		{139374C8-DBA1-330D-D6F1-F0446CC87E16}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

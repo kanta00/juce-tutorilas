@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioParameterTutorial - Standalone Plugin", "AudioParameterTutorial_StandalonePlugin.vcxproj", "{89D23627-BEDD-899D-4E3A-36F76F062C05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1} = {9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioParameterTutorial - VST3", "AudioParameterTutorial_VST3.vcxproj", "{626EA77A-E139-AB4D-5F51-91879E85C4DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1} = {9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioParameterTutorial - Shared Code", "AudioParameterTutorial_SharedCode.vcxproj", "{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{626EA77A-E139-AB4D-5F51-91879E85C4DD}.Debug|x64.ActiveCfg = Debug|x64
+		{626EA77A-E139-AB4D-5F51-91879E85C4DD}.Debug|x64.Build.0 = Debug|x64
+		{626EA77A-E139-AB4D-5F51-91879E85C4DD}.Release|x64.ActiveCfg = Release|x64
+		{626EA77A-E139-AB4D-5F51-91879E85C4DD}.Release|x64.Build.0 = Release|x64
+		{89D23627-BEDD-899D-4E3A-36F76F062C05}.Debug|x64.ActiveCfg = Debug|x64
+		{89D23627-BEDD-899D-4E3A-36F76F062C05}.Debug|x64.Build.0 = Debug|x64
+		{89D23627-BEDD-899D-4E3A-36F76F062C05}.Release|x64.ActiveCfg = Release|x64
+		{89D23627-BEDD-899D-4E3A-36F76F062C05}.Release|x64.Build.0 = Release|x64
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}.Debug|x64.ActiveCfg = Debug|x64
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}.Debug|x64.Build.0 = Debug|x64
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}.Release|x64.ActiveCfg = Release|x64
+		{9DB50A83-FDC1-3F12-3311-37EEEA1A1EA1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
